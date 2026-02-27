@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>DataverseFieldUpdateTracker</AssemblyName>
+    <RootNamespace>DataverseFieldUpdateTracker</RootNamespace>
+    <Version>0.2.0</Version>
+    <Description>Track field updates in Microsoft Dataverse – C# .NET 8 migration</Description>
+    <!-- Suppress Semantic Kernel experimental API diagnostics, sync-over-async pattern on Dataverse SDK, and version resolution warning -->
+    <NoWarn>$(NoWarn);SKEXP0001;SKEXP0010;SKEXP0050;SKEXP0070;CS1998;NU1603</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.1" />
+    <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client" Version="1.1.13" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.32.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.Google" Version="1.32.0-alpha" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
