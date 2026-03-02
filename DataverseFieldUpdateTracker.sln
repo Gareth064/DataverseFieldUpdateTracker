@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB186F4A-16D4-4026-AF96-4B932DFB1055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataverseFieldUpdateTracker", "src\DataverseFieldUpdateTracker\DataverseFieldUpdateTracker.csproj", "{CD314331-811E-4540-831C-8D85E83AE569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5AF03127-A61C-4A7F-A2A7-0D9FFDC17E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataverseFieldUpdateTracker.Tests", "tests\DataverseFieldUpdateTracker.Tests\DataverseFieldUpdateTracker.Tests.csproj", "{027301DB-CBFA-4D0F-9C2B-BDCD8E2AF6DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD314331-811E-4540-831C-8D85E83AE569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD314331-811E-4540-831C-8D85E83AE569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD314331-811E-4540-831C-8D85E83AE569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD314331-811E-4540-831C-8D85E83AE569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027301DB-CBFA-4D0F-9C2B-BDCD8E2AF6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027301DB-CBFA-4D0F-9C2B-BDCD8E2AF6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027301DB-CBFA-4D0F-9C2B-BDCD8E2AF6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027301DB-CBFA-4D0F-9C2B-BDCD8E2AF6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD314331-811E-4540-831C-8D85E83AE569} = {CB186F4A-16D4-4026-AF96-4B932DFB1055}
+		{027301DB-CBFA-4D0F-9C2B-BDCD8E2AF6DC} = {5AF03127-A61C-4A7F-A2A7-0D9FFDC17E47}
+	EndGlobalSection
+EndGlobal
